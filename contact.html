@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a la hoja de estilos -->
+</head>
+<body>
+    <!-- Navegación principal -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor principal de la página de contacto -->
+    <div class="content">
+        <h1>Contacto</h1>
+
+        <!-- Formulario de contacto -->
+        <form id="contactForm">
+            <!-- Campo de entrada para el nombre -->
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Campo de entrada para el mensaje -->
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <!-- Botón para enviar el formulario -->
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Archivo JavaScript que maneja la lógica del formulario -->
+    <script src="js/contact.js"></script>
+</body>
+</html>

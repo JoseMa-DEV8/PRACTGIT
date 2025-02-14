@@ -1,0 +1,139 @@
+/* =======================
+   Estilos Generales
+   ======================= */
+   body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    background-color: #f4f4f4; /* Color de fondo general */
+    color: #333; /* Color del texto principal */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal de la aplicación */
+#app {
+    background-color: #fff;
+    max-width: 600px; /* Limita el ancho del contenedor */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Título principal */
+h1 {
+    color: #333;
+}
+
+/* =======================
+   Estilos del Input y Botón
+   ======================= */
+
+/* Campo de entrada de texto */
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Botón principal */
+button {
+    padding: 10px 20px;
+    background-color: #5cb85c; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #449d44;
+}
+
+/* =======================
+   Estilos de la Lista de Tareas
+   ======================= */
+
+/* Elimina los estilos predeterminados de la lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para cada tarea */
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/* Elimina el borde inferior de la última tarea */
+li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para las tareas completadas */
+li.completed {
+    text-decoration: line-through; /* Tacha el texto */
+    color: #999; /* Color gris para indicar que está completado */
+}
+
+/* =======================
+   Estilos del Botón de Borrar
+   ======================= */
+
+/* Botón para eliminar tareas */
+.buttonB {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #d9534f; /* Rojo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el cursor sobre el botón de borrar */
+.buttonB:hover {
+    background-color: #c9302c;
+}
+
+/* =======================
+   Estilos del Menú de Navegación
+   ======================= */
+
+/* Estilos de la barra de navegación */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Color oscuro */
+    overflow: hidden;
+}
+
+/* Elementos del menú alineados en línea */
+.menu li {
+    float: left;
+}
+
+/* Estilos de los enlaces del menú */
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces del menú */
+.menu li a:hover {
+    background-color: #111;
+}
+
+/* =======================
+   Estilos del Contenido General
+   ======================= */
+.content {
+    padding: 20px;
+}
